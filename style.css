@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 99vw;
+    height: 95vh;
+    background-color: white;
+    position: relative;
+    padding: 0px;
+}
+
+h1{
+    padding: 2%;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+    padding: 2%;
+}
+
+.box-title{
+    text-align: center;
+    width: 85%;
+    height: 98%;
+    background: #2CB3F3;
+    ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 4vh 0 0 0;
+}
+
+.body-toy{
+    background: white;
+    width: 55%;
+    height: 65%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25% 25% 0 0;
+}
+
+.face{
+    background:#FFE1C9;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.eye-right{
+    background: black;
+    border: 2px solid black;
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;
+    position: absolute;
+    top: 12vh;
+    left: 8vw;
+}
+
+.eye-left{
+    background: black;
+    border: 2px solid black;
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;
+    position: absolute;
+    top: 12vh;
+    right: 8vw;
+}
+
+.box-email{
+    position: absolute;
+    left: 24%;
+    bottom: 30%;
+    width: 20vw;
+    padding: 0.9vh;
+}
+
+.box-password{
+    position: absolute;
+    left: 24%;
+    bottom: 20%;
+    width: 20vw;
+    padding: 0.9vh;
+}
+
+.btn{
+    position: relative;
+    left: 45%;
+    top: 94%;
+    width: 20vw;
+}
+
+button{
+    padding: 2vh 3vw;
+    background: #55A603;
+}
